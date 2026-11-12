@@ -1,0 +1,14 @@
+path: /Users/huuphat/Documents/Github/FSB/traffic-sign/data
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['No U-turn', 'No going opposite', 'No stopping', 'No waiting', 'Roundabout ahead', 'Speed limit 60kmh']
+
+roboflow:
+  workspace: vietnamese-traffic-signs-detection-jbfbz
+  project: vietnamese-traffic-signs-detection
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vietnamese-traffic-signs-detection-jbfbz/vietnamese-traffic-signs-detection/dataset/7

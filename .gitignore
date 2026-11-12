@@ -1,0 +1,21 @@
+# môi trường / hệ thống
+.venv/
+__pycache__/
+.DS_Store
+*.pyc
+
+# dữ liệu ảnh (tải lại từ Roboflow, xem README)
+data/train/
+data/valid/
+data/test/
+
+# file sinh ra khi chạy thử / dung lượng lớn
+runs/detect/predict/
+runs/detect/val/
+runs/detect/val-2/
+runs/**/last.pt
+runs/**/train_batch*.jpg
+yolo26n.pt
+share/test_set/
+share/*.zip
+share/best_phat.pt
